@@ -1,13 +1,34 @@
 aid: 9-mothers-corporation
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/9-mothers-corporation.png
 name: 9 Mothers Corporation
-description: 9 Mothers Corporation is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 9 Mothers Corporation is a defense technology company founded in 2024 and based in Austin,
+  Texas, building AI-powered counter-drone (C-sUAS) point defense systems for the FPV drone era. Its
+  flagship product, EDDA, is a small, low-power, autonomous-capable point-defense turret that engages
+  Group 1 suicide drones at 10-100+ meter range to protect soldiers, vehicles, and critical assets. A
+  Y Combinator Spring 2026 company with reported sales to the U.S. Department of War, its roadmap includes
+  Vor (passive acoustic sensor), Atla (belt-fed shotgun system), and Gleipnir (counter-drone for larger
+  platforms). This profile was surfaced as a Y Combinator portfolio company and added to the API Evangelist
+  network. The company publishes no public API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/9-mothers-corporation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+- palm-drive-capital
+- streamlined-ventures
+- batch-ventures
+- pioneer-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
@@ -15,9 +36,34 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Defense
+- Counter-Drone
+- Autonomous Systems
+- Robotics
+- Hardware
+- Security
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/9-mothers-corporation-domain-security.yml
+- type: Website
+  url: https://9mothers.com
+- type: About
+  url: https://9mothers.com/company
+- type: LinkedIn
+  url: https://www.linkedin.com/company/9-mothers/
+- type: Twitter
+  url: https://x.com/9mothers
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/9-mothers
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
