@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/9-mothers-corporation.png
-name: 9 Mothers Corporation
+name: 9 Mothers
 description: 9 Mothers Corporation is a defense technology company founded in 2024 and based in Austin,
   Texas, building AI-powered counter-drone (C-sUAS) point defense systems for the FPV drone era. Its
   flagship product, EDDA, is a small, low-power, autonomous-capable point-defense turret that engages
@@ -78,3 +78,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: 9 Mothers Corporation
